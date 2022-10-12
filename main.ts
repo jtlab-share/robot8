@@ -1,5 +1,5 @@
 wakabaCar.setBlackness(500)
-wakabaCar.setRotateDirection(Tristate.both, Rotate.forward)
+wakabaCar.setRotateDirection(Tristate.both, Rotate.backward)
 wakabaCar.stopMotor(Tristate.both)
 wakabaCar.runCar()
 basic.forever(function () {
